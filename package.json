@@ -1,7 +1,26 @@
 {
+  "name": "react-chat-tower-server",
+  "version": "1.0.0",
+  "description": "Node server for websocket",
+  "main": "app.js",
+  "author": "thiagoterleski",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "react",
+    "node",
+    "websocket",
+    "heroku"
+  ],
+  "author": "thiagoterleski",
+  "license": "MIT",
   "dependencies": {
     "express": "^4.15.3",
     "randomcolor": "^0.5.3",
     "socket.io": "^2.0.3"
+  },
+  "engines": {
+    "node": "6.7.10"
   }
 }
